@@ -10,6 +10,9 @@ public class PruebaAritmetica {
         aritmetica1.b = 2;
         aritmetica1.sumar();
         
+        int resultado = aritmetica1.sumarConRetorno();
+        System.out.println("resultado desde la prueba = " + resultado);
+        
         
     }
 }
